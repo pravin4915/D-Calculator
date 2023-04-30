@@ -1,0 +1,36 @@
+<html>
+<body>
+<center>
+<form  name="cal">
+<table  border=2>
+<tr>
+<th colspan=4><input type=text id=txt></th>
+</tr>
+<tr>
+<th><input type=button  value=1  onclick=cal.txt.value+=1></th>
+<th><input type=button  value=2 onclick=cal.txt.value+=2></th>
+<th><input type=button  value=3  onclick=cal.txt.value+=3></th>
+<th><input type=button  value=+  onclick=cal.txt.value+="+"></th>
+</tr>
+<tr>
+<th><input type=button  value=4 onclick=cal.txt.value+=4></th>
+<th><input type=button  value=5 onclick=cal.txt.value+=5></th>
+<th><input type=button  value=6 onclick=cal.txt.value+=6></th>
+<th><input type=button  value=- onclick=cal.txt.value+="-"></th>
+</tr>
+<tr>
+<th><input type=button  value=7 onclick=cal.txt.value+=7></th>
+<th><input type=button  value=8 onclick=cal.txt.value+=8></th>
+<th><input type=button  value=9 onclick=cal.txt.value+=9></th>
+<th><input type=button  value=* onclick=cal.txt.value+="*"></th>
+</tr>
+<tr>
+<th><input type=button  value=0 onclick=cal.txt.value+=0></th>
+<th><input type=button  value=CE onclick=cal.txt.value=""></th>
+<th><input type=button  value==   onclick=cal.txt.value=eval(cal.txt.value)></th>
+<th><input type=button  value=/ onclick=cal.txt.value+="/"></th>
+</tr>
+</table>
+</form>
+</body>
+</html>
